@@ -1,0 +1,11 @@
+enableBatchScheduler: true
+enableWebhook: true
+imagePullSecrets:
+  - name: harbor
+ingressUrlFormat: ""
+metrics:
+  enable: true
+operatorImageName: registry/spark-operator
+operatorVersion: v1beta2-1.2.3-3.1.1
+podMonitor:
+  enable: true
